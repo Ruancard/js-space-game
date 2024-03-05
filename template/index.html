@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+     <html lang="pt-br">
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="../static/style.css">
+          <link rel="stylesheet" href="../js/index.js">
+          <title>space invaders</title>
+     </head>
+     <body>
+          <main>
+               <div class = "titulo">Space invaders</div>
+               <div class="menu">
+                    <button class="play">Play</button>
+                    <button class="option">Option</button>
+                    <button class="exit">Exit</button>
+               </div> 
+               <div class="menu-options">
+                    <h2>Options</h2>
+                    <label for="volume">Volume</label>
+                    <input type="range" id="volume" min="0" max="100">
+                    <button class="back">back</button>
+                </div>
+                <div class="principal">
+                    <h1 class="pontuacao">pontuação: 0</h1>
+                    <div class="nav">
+                         <img src="/img/meteoro.png" alt="">
+                    </div>
+                </div>
+                <div class="gameover">
+                    <h1 class="pontosfinal">fraco</h1>
+                    <button class="retry">jogar novamente</button>
+                    <button class="return">retornar ao menu</button>
+                </div>   
+                
+          </main> 
+        
+          <script src="../js/index.js"></script>
+     </body>
+</html>

@@ -1,0 +1,107 @@
+body{
+     display: flex;
+     justify-content: center;
+     background-image: url(../img/bgimg.jpg);
+     background-size: cover;  
+     margin: 0%;
+     color:white;
+     font-size: 25px;
+     text-align: center;
+}
+.titulo{
+     font-size: 50px;
+     position: absolute;
+     top: 200px;
+     align-self: center;
+     display: block;
+}
+.titulo--click{
+     display: none;
+}
+main{
+     display: flex; 
+     width: 300px;
+     height: 100vh;
+     justify-content: center;
+     flex-direction: column;
+}
+.menu{
+     height: 150px;
+     justify-content: center;
+     border-radius: 10px;
+     display: flex; 
+     gap: 15px;
+     flex-direction: column; 
+     background-color: rgba(77, 77, 77, 0.5);
+}
+button{
+     background-color: transparent;
+     border: none;
+     color:white;
+     font-size: 25px;
+     cursor:pointer;
+}
+
+button:hover{
+     font-size: 30px;
+}
+
+.menu-options{
+     height: 200px;
+     width: 200px;
+     background-color: rgba(77, 77, 77, 0.5);
+     border-radius: 10px;
+     position: absolute;
+     align-self: center;
+     display: none;
+     text-align: center;
+     flex-direction: column;
+}
+
+.menu--click{
+     display: none;
+}
+
+.menu-options--click{
+     display: flex;
+}
+
+.principal{
+     display: none;
+     align-self: center;
+}
+
+.principal--click{
+     display: block;
+}
+
+.nav{
+     margin: 0%;
+     position: absolute;
+     top: 85vh;
+     left: 48vw;
+     animation: slidein 2s ease-in-out;
+}
+
+.nav>img{
+     width: 10vw;
+}
+.gameover{
+     display: none; 
+     height: 350px;
+     justify-content: center;
+     border-radius: 10px;
+     gap: 15px;
+     flex-direction: column; 
+     background-color: rgba(77, 77, 77, 0.5);
+}
+.gameover--click{
+     display: flex;
+}
+.pontuacao{
+     position: absolute;
+     left: 5vw;
+     top: 5vh;
+     font-size: 2rem;
+     
+}
