@@ -1,3 +1,3 @@
-# js-space-invaders
+# js-space-game
 
 ## Status: Finished
